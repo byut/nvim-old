@@ -21,6 +21,20 @@ end
 ---Records the name of the newly applied colorscheme in a file.
 vim.api.nvim_create_autocmd("ColorScheme", {
     callback = function(info)
+        for _, group_name in ipairs({
+            "Normal",
+            "NormalNC",
+            "CursorLineNr",
+            "CursorLineSign",
+            "CursorLineFold",
+            "SignColumn",
+            "EndOfBuffer",
+            "LineNr",
+            "NonText",
+        }) do
+            vim.cmd(string.format("highlight %s guibg=NONE ctermbg=NONE", group_name))
+        end
+
         local colorscheme = info.match
         if not vim.tbl_contains(colorschemes, colorscheme) then
             return
