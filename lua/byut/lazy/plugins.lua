@@ -7,6 +7,9 @@ return {
     "windwp/nvim-autopairs", -- auto-close parentheses, brackets, quotes, and more
     "windwp/nvim-ts-autotag", -- auto-close and auto-rename html(jsx) tags
 
+    --> Git
+    "tpope/vim-fugitive",
+
     ---
     "nvim-telescope/telescope.nvim",
     "nvim-lua/plenary.nvim",
