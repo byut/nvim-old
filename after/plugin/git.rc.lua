@@ -1,3 +1,8 @@
+local gitsigns_status, gitsigns = pcall(require, "gitsigns")
+if gitsigns_status then
+    gitsigns.setup({})
+end
+
 local nvim = require("byut.utils.nvim")
 local keymap = nvim.keymap.set
 

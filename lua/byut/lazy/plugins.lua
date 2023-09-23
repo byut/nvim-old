@@ -8,6 +8,7 @@ return {
     "windwp/nvim-ts-autotag", -- auto-close and auto-rename html(jsx) tags
 
     --> Git
+    "lewis6991/gitsigns.nvim",
     "tpope/vim-fugitive",
 
     ---
