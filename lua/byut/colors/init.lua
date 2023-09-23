@@ -1,3 +1,5 @@
+require("byut.colors.tokyonight")
+
 ---A list of all available colorschemes
 ---in the current Neovim configuration.
 local colorschemes = vim.fn.getcompletion("", "color")
