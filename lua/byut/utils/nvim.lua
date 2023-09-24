@@ -21,7 +21,7 @@ M.keymap.set = function(lhs, rhs, opts)
         noremap = opts.noremap or true,
         nowait = opts.nowait or false,
         expr = opts.expr or false,
-        buffer = opts.buffer
+        buffer = opts.buffer,
     })
 end
 

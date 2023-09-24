@@ -2,7 +2,14 @@ local pkg_core_status, pkg_core = pcall(require, "mason-core.package")
 local registry_status, registry = pcall(require, "mason-registry")
 
 local M = {
-	list = {},
+    list = {
+        formatters = {
+            "black",
+            "stylua",
+            "prettierd",
+            "clang-format",
+        },
+    },
 }
 
 function M.ensure()
@@ -18,7 +25,10 @@ function M.ensure()
                             pkg:install({ version = version })
                         end
                     else
-                        vim.notify(("[mason.nvim] -> [%s]: %s is not a valid package name"):format(group, pkg_name), vim.log.levels.ERROR)
+                        vim.notify(
+                            ("[mason.nvim] -> [%s]: %s is not a valid package name"):format(group, pkg_name),
+                            vim.log.levels.ERROR
+                        )
                     end
                 end
             end

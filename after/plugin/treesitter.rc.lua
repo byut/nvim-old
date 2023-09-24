@@ -11,7 +11,7 @@ end
 local autopairs_status, autopairs = pcall(require, "nvim-autopairs")
 if autopairs_status then
     autopairs.setup({})
-end 
+end
 
 local autotag_status, autotag = pcall(require, "nvim-ts-autotag")
 if autotag_status then

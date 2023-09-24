@@ -11,7 +11,7 @@ vim.api.nvim_create_autocmd("filetype", {
         keymap("<C-j>", "<C-w>j")
         keymap("<C-k>", "<C-w>k")
         keymap("<C-l>", "<C-w>l")
-    end
+    end,
 })
 
 nvim.keymap.set("<leader>eo", ":Explore<CR>")

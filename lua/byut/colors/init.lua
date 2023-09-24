@@ -50,9 +50,9 @@ vim.api.nvim_create_autocmd("ColorScheme", {
         file:write(string.format("%s\n", colorscheme))
         file:flush()
         file:close()
-    end
+    end,
 })
 
----Applies the most recent colorscheme. If it is not found 
+---Applies the most recent colorscheme. If it is not found
 ---or is unavailable, it defaults to retrobox.
 vim.cmd.colorscheme(retrieve_colorscheme() or "retrobox")

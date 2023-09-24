@@ -1,5 +1,5 @@
 return {
-	"williamboman/mason.nvim", -- portable package manager that manages LSP/DAP servers, linters, and formatters.
+    "williamboman/mason.nvim", -- portable package manager that manages LSP/DAP servers, linters, and formatters.
 
     --> Colorschemes
     "folke/tokyonight.nvim", -- dark theme with support for a wide range of plugins
@@ -15,6 +15,7 @@ return {
 
     ---
     "numToStr/Comment.nvim",
+    "mhartington/formatter.nvim",
     "nvim-telescope/telescope.nvim",
     "nvim-lua/plenary.nvim",
 }
