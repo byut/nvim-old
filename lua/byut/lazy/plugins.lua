@@ -20,7 +20,12 @@ return {
     "hrsh7th/cmp-buffer", -- nvim-cmp source for buffer words
     "hrsh7th/cmp-nvim-lsp", -- nvim-cmp source for LSP
     "hrsh7th/cmp-nvim-lua", -- nvim-cmp source for Lua API
+    "saadparwaiz1/cmp_luasnip", -- nvim-cmp source for luasnip completion
     "hrsh7th/cmp-nvim-lsp-signature-help", -- nvim-cmp source for displaying function signatures
+
+    --> Snippets
+    "L3MON4D3/LuaSnip", -- a snippet engine plugin
+    "rafamadriz/friendly-snippets", -- a collection of pre-configured snippets
 
     --> Git
     "lewis6991/gitsigns.nvim",
