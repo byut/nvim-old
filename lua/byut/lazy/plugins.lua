@@ -12,6 +12,7 @@ return {
     "tpope/vim-fugitive",
 
     ---
+    "numToStr/Comment.nvim",
     "nvim-telescope/telescope.nvim",
     "nvim-lua/plenary.nvim",
 }
