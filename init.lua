@@ -5,3 +5,5 @@ require("byut.lazy")
 require("byut.mason")
 
 require("byut.colors")
+
+require("byut.lsp")
