@@ -1,4 +1,6 @@
 return {
+	"williamboman/mason.nvim", -- portable package manager that manages LSP/DAP servers, linters, and formatters.
+
     --> Colorschemes
     "folke/tokyonight.nvim", -- dark theme with support for a wide range of plugins
 
