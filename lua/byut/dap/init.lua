@@ -34,3 +34,7 @@ end)
 
 dap_ui.setup({})
 vim.fn.sign_define("DapBreakpoint", { text = " " })
+
+-- Adapters -----------------------------------------------------------------
+
+require("byut.dap.adapters.codelldb").setup(dap)
