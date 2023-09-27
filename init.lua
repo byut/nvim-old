@@ -7,3 +7,4 @@ require("byut.mason")
 require("byut.colors")
 
 require("byut.lsp")
+require("byut.dap")

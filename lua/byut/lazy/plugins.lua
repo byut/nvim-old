@@ -10,6 +10,10 @@ return {
     "windwp/nvim-autopairs", -- auto-close parentheses, brackets, quotes, and more
     "windwp/nvim-ts-autotag", -- auto-close and auto-rename html(jsx) tags
 
+    --> Debug Adapter Protocol (DAP)
+    "mfussenegger/nvim-dap", -- Debug Adapter Protocol client implementation
+    "rcarriga/nvim-dap-ui", -- user interface for nvim-dap
+
     --> Language Server Protocol (LSP)
     "neovim/nvim-lspconfig", -- a collection of configurations for Neovim's built-in LSP
 
