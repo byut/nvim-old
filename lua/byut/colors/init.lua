@@ -1,4 +1,5 @@
 require("byut.colors.tokyonight")
+require("byut.colors.nightfox")
 
 ---A list of all available colorschemes
 ---in the current Neovim configuration.

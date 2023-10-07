@@ -4,6 +4,7 @@ return {
 
     --> Colorschemes
     "folke/tokyonight.nvim", -- dark theme with support for a wide range of plugins
+    "EdenEast/nightfox.nvim", -- a highly customizable theme with support for a variety of plugins
 
     --> Treesitter & Extensions
     "nvim-treesitter/nvim-treesitter", -- code parser that provides folding, highlighting, and more
