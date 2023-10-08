@@ -43,7 +43,7 @@ function M.ensure()
                         if pkg_status then
                             if not pkg:is_installed() then
                                 vim.notify(("[mason.nvim] -> [%s]: Installing %s..."):format(group, pkg.name))
-                                pkg:install({ version = version })
+                                pkg:install({ version = pkg_version })
                             end
                         else
                             vim.notify(
